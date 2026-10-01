@@ -99,4 +99,5 @@ async def iniciar():
     await asyncio.Event().wait()
 
 
-await iniciar()
+if __name__ == "__main__":
+    asyncio.run(iniciar())
